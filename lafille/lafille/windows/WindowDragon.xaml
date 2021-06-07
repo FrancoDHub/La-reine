@@ -1,0 +1,13 @@
+﻿<Window x:Class="lafille.windows.WindowDragon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lafille.windows"
+        mc:Ignorable="d"
+        Title="WindowDragon" Height="384.545" Width="590.341" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Image MouseLeftButtonDown="Image_MouseLeftButtonDown" Margin="10,0" Source="/lafille;component/Lesimages/dragon.jpg"/>
+
+    </Grid>
+</Window>
